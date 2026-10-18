@@ -1,0 +1,38 @@
+# Compiled class files & build directories
+target/
+*.class
+
+# Test output and reports
+test-output/
+surefire-reports/
+screenshots/
+allure-results/
+.allure/
+
+# Log files
+*.log
+
+# Maven temporary files
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# VS Code
+.vscode/
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Mac OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Maven binaries (local download)
+apache-maven-*/
+
