@@ -52,6 +52,6 @@ public class LoginTest extends BaseTest {
         HomePage loggedInHomePage = loginPage.login(validEmail, validPassword);
 
         // Assertion: Verify user is logged in
-        Assert.assertTrue(loggedInHomePage.isUserLoggedIn(), "User was not logged in successfully!");
+        Assert.assertTrue(loggedInHomePage.isUserLoggedIn(), "User was nt logged in successfully!");
     }
 }
